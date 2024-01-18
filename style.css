@@ -1,0 +1,42 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    height: 100vh;
+display: flex;
+justify-content: center;
+align-items: center;
+   
+}
+.container{
+    text-align: center;
+    border: 2px solid black;
+    width: 500px;
+    max-width: 80%;
+    padding: 40px 0;
+}
+.container>input{
+    width:90%;
+    padding:10px 0;
+    border: 2px solid black;
+    outline: none;
+}
+.container .option:nth-child(1){
+    padding-top: 30px;
+}
+.option{
+    padding: 10px 0;
+}
+.container .option :nth-child(3){
+    border: 1px solid black;
+    outline: none;
+    width: 26rem;
+    padding: 5px 0;
+
+}
+button{
+    width: 60%;
+    padding: 15px;
+}
