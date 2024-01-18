@@ -22,6 +22,7 @@ align-items: center;
     padding:10px 0;
     border: 2px solid black;
     outline: none;
+    text-align: center;
 }
 .container .option:nth-child(1){
     padding-top: 30px;
@@ -30,7 +31,7 @@ align-items: center;
     padding: 10px 0;
 }
 .container .option :nth-child(3){
-    border: 1px solid black;
+    border: none;
     outline: none;
     width: 26rem;
     padding: 5px 0;
